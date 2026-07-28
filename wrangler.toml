@@ -1,0 +1,13 @@
+name = "p2000-relay"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Ververst de cache elke minuut.
+[triggers]
+crons = ["*/1 * * * *"]
+
+# Wordt aangemaakt via `wrangler kv namespace create P2000_CACHE`
+# (zie README.md) — vul hier het id in dat dat commando teruggeeft.
+[[kv_namespaces]]
+binding = "P2000_CACHE"
+id = "VUL_HIER_JE_KV_NAMESPACE_ID_IN"
