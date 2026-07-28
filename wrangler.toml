@@ -10,4 +10,4 @@ crons = ["*/1 * * * *"]
 # (zie README.md) — vul hier het id in dat dat commando teruggeeft.
 [[kv_namespaces]]
 binding = "P2000_CACHE"
-id = "VUL_HIER_JE_KV_NAMESPACE_ID_IN"
+id = "c225609bd8aa4bc1a7a4e2116e793c7a"
