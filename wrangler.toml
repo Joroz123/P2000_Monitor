@@ -1,4 +1,4 @@
-name = "p2000-relay"
+name = "p2000monitor"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
